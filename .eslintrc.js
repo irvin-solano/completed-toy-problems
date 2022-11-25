@@ -9,7 +9,9 @@ module.exports = {
   overrides: [
   ],
   parserOptions: {
-    ecmaVersion: 'latest'
+    warnOnUnsupportedTypeScriptVersion: true,
+    parser: '@typescript-eslint/parser',
+    ecmaVersion: 'es6'
   },
   rules: {
     semi: [2, 'always']
