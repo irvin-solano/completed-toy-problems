@@ -1,4 +1,6 @@
-/**
+// https://www.hackerrank.com/challenges/one-week-preparation-kit-plus-minus/problem
+
+/*
  * I -  array
  * O -  none - three strings PRINTED on separate lines
  * C -  array size from 0 to 100, integers range from -100 to 100
