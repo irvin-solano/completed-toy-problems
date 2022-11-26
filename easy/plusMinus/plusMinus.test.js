@@ -1,4 +1,4 @@
-import plusMinus from './plusMinus.js'
+import plusMinus from './plusMinus.js';
 
 describe('Return the number of positive, zero, and negative numbers as six-place decimals  - in the form of strings - of the total elements in the array, each on separate lines when:', () => {
   it('given an array with one positive number, one negative number, and one zero', () => {
