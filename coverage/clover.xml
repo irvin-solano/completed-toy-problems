@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1669484655096" clover="3.2.0">
+  <project timestamp="1669484655096" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2" elements="31" coveredelements="31" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+    <file name="plusMinus.js" path="/Users/irvin/Documents/githubrepos/completed-toy-problems/easy/plusMinus/plusMinus.js">
+      <metrics statements="19" coveredstatements="19" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <line num="12" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="19" count="73" type="cond" truecount="4" falsecount="0"/>
+      <line num="22" count="15" type="stmt"/>
+      <line num="23" count="15" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="3" type="stmt"/>
+      <line num="26" count="12" type="stmt"/>
+      <line num="27" count="12" type="stmt"/>
+      <line num="28" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="31" count="11" type="stmt"/>
+      <line num="35" count="5" type="stmt"/>
+      <line num="36" count="5" type="stmt"/>
+      <line num="37" count="5" type="stmt"/>
+      <line num="38" count="5" type="stmt"/>
+      <line num="40" count="5" type="stmt"/>
+    </file>
+  </project>
+</coverage>
