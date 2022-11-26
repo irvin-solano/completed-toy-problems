@@ -1,5 +1,10 @@
 // https://leetcode.com/problems/valid-parentheses/description/
 
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+
 const isValid = function (s) {
   if (s.length === 1) {
     return false;
