@@ -10,7 +10,7 @@
 
 function plusMinus (arr) {
   if (arr.length === 0) {
-    console.log(0, '\n', 0, '\n', 0);
+    console.log('0.000000\n0.000000\n0.000000');
   } else {
     const n = arr.length;
 
@@ -26,7 +26,7 @@ function plusMinus (arr) {
         const periodIndex = numString.indexOf('.');
         const decimals = numString.slice(periodIndex, periodIndex + 7);
         if (decimals.length === 6) {
-          return numString;
+          return Number.parseFloat(numString).toFixed(6);
         } else {
           return num.toFixed(6);
         }
