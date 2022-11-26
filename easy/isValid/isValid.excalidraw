@@ -1,0 +1,46 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "text",
+      "version": 33,
+      "versionNonce": 1772150751,
+      "isDeleted": false,
+      "id": "ECk7GmX6cG5ksabKOjZ8e",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 317.1111111111111,
+      "y": 17,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 1057,
+      "height": 684,
+      "seed": 677130709,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "boundElements": [],
+      "updated": 1668178533410,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "I - string\no - boolean\nC - 1 <= s.length <= 104\n    s consists of parentheses only '()[]{}'.\nE - 1 charcter string\n\nE - Given a string of brackets, we will traverse the string in sets of two characters, and based on what\nthe first character is, if the second character matches its opposing bracket, then we will continue to\ntraverse down the string.  \n\nViz -\n\nA - \nif s.length is equal to 1,\n    return false\nelse\n    traverser through s in increments of 2 characters\n        if the first character is an open parenthesis\n            if second character is not a chlose parenthesis\n                return false\n            if the first character is an open bracket\n                if second character is not a chlose bracket\n                    return false\n            if the first character is an open curly\n                if second character is not a chlose curly\n                    return false\n    return true",
+      "baseline": 677,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "I - string\no - boolean\nC - 1 <= s.length <= 104\n    s consists of parentheses only '()[]{}'.\nE - 1 charcter string\n\nE - Given a string of brackets, we will traverse the string in sets of two characters, and based on what\nthe first character is, if the second character matches its opposing bracket, then we will continue to\ntraverse down the string.  \n\nViz -\n\nA - \nif s.length is equal to 1,\n    return false\nelse\n    traverser through s in increments of 2 characters\n        if the first character is an open parenthesis\n            if second character is not a chlose parenthesis\n                return false\n            if the first character is an open bracket\n                if second character is not a chlose bracket\n                    return false\n            if the first character is an open curly\n                if second character is not a chlose curly\n                    return false\n    return true"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
