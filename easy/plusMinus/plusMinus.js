@@ -12,7 +12,8 @@
 
 function plusMinus (arr) {
   if (arr.length === 0) {
-    console.log('0.000000\n0.000000\n0.000000');
+    // console.log('0.000000\n0.000000\n0.000000'); // disabled for testing
+    return '0.000000\n0.000000\n0.000000'; // enabled for testing
   } else {
     const n = arr.length;
 
@@ -39,7 +40,8 @@ function plusMinus (arr) {
     const negativesRatio = toRatioString(negativesCount / n);
     const zerosRatio = toRatioString(zerosCount / n);
 
-    console.log(positivesRatio + '\n' + negativesRatio + '\n' + zerosRatio);
+    // console.log(positivesRatio + '\n' + negativesRatio + '\n' + zerosRatio); // disabled for testing
+    return positivesRatio + '\n' + negativesRatio + '\n' + zerosRatio; // enabled for testing
   }
 }
 
