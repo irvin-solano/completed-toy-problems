@@ -1,5 +1,5 @@
 import isBalanced from './balancedBinaryTree.js';
-import makeATree from '../../utils.js';
+import makeATree from '../../utils/utils.js';
 const trees = [[3, 9, 20, null, null, 15, 7], [1, 2, 2, 3, 3, null, null, 4, 4], []];
 const testCases = ['when a tree is balanced, the function outputs TRUE', 'when a tree is NOT balanced, the function outputs FALSE', 'empty set'];
 const testOutputs = [true, false, true];
