@@ -32,7 +32,6 @@ describe('makeATree makes a binary tree when given an array', () => {
   });
   it('[1,2] results in tree without a right branch', () => {
     const tree = makeATree([1, 2]);
-    console.log(tree);
     expect(tree.right === null).toBe(true);
   });
   it('[1,2,3,4,5,null,null,null,null,10,11] results in tree without a right branch', () => {
